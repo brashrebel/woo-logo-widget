@@ -32,7 +32,7 @@ class Woo_Logo_Widget extends WP_Widget {
 		$text = apply_filters( 'text', $instance['text'] );
 		?>
 	<?php echo $args['before_widget']; ?>
-		<div id="logo">
+		<div id="woo-logo">
 				<?php $logo = get_option('woo_logo'); ?>
 
 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'description' ) ); ?>">
